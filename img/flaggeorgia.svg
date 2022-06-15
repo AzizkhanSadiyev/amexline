@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ins" transform="translate(-1.272 -1.271)">
+    <rect id="Rectangle_1784" data-name="Rectangle 1784" width="20" height="20" transform="translate(1.272 1.271)" fill="none"/>
+    <g id="georgia" transform="translate(2.325 2.324)">
+      <path id="Path_5755" data-name="Path 5755" d="M8.947,0A8.947,8.947,0,1,1,0,8.947,8.947,8.947,0,0,1,8.947,0Z" transform="translate(0 0)" fill="#f0f0f0"/>
+      <g id="Group_4559" data-name="Group 4559" transform="translate(0 0)">
+        <path id="Path_5750" data-name="Path 5750" d="M17.817,7.78h-7.7V.076a9.029,9.029,0,0,0-2.334,0v7.7H.076a9.029,9.029,0,0,0,0,2.334h7.7v7.7a9.029,9.029,0,0,0,2.334,0v-7.7h7.7a9.029,9.029,0,0,0,0-2.334Z" transform="translate(0 0)" fill="#d80027"/>
+        <path id="Path_5751" data-name="Path 5751" d="M91.377,90.21V89.043H90.21V90.21H89.043v1.167H90.21v1.167h1.167V91.377h1.167V90.21Z" transform="translate(-85.931 -85.931)" fill="#d80027"/>
+        <path id="Path_5752" data-name="Path 5752" d="M325.117,90.21V89.043H323.95V90.21h-1.167v1.167h1.167v1.167h1.167V91.377h1.167V90.21Z" transform="translate(-311.503 -85.931)" fill="#d80027"/>
+        <path id="Path_5753" data-name="Path 5753" d="M91.377,323.95v-1.167H90.21v1.167H89.043v1.167H90.21v1.167h1.167v-1.167h1.167V323.95Z" transform="translate(-85.931 -311.503)" fill="#d80027"/>
+        <path id="Path_5754" data-name="Path 5754" d="M325.117,323.95v-1.167H323.95v1.167h-1.167v1.167h1.167v1.167h1.167v-1.167h1.167V323.95Z" transform="translate(-311.503 -311.503)" fill="#d80027"/>
+      </g>
+    </g>
+  </g>
+</svg>

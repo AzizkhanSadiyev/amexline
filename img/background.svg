@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="285" viewBox="0 0 285 285">
+  <g id="background" transform="translate(-330 -1147)">
+    <rect id="Rectangle_2293" data-name="Rectangle 2293" width="285" height="285" rx="20" transform="translate(330 1147)" fill="#fff"/>
+    <g id="Group_4508" data-name="Group 4508" transform="translate(350.214 1340.75)">
+      <g id="Rectangle_1674" data-name="Rectangle 1674" transform="translate(-0.214 -173.75)" fill="#fff" stroke="#0e1013" stroke-width="2">
+        <rect width="245" height="245" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="243" height="243" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_4509" data-name="Group 4509" transform="translate(68 -5)">
+      <rect id="Rectangle_2327" data-name="Rectangle 2327" width="110" height="4" rx="2" transform="translate(350 1212)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2329" data-name="Rectangle 2329" width="110" height="4" rx="2" transform="translate(350 1248)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2331" data-name="Rectangle 2331" width="110" height="4" rx="2" transform="translate(350 1284)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2374" data-name="Rectangle 2374" width="110" height="4" rx="2" transform="translate(350 1320)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2376" data-name="Rectangle 2376" width="110" height="4" rx="2" transform="translate(350 1356)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2378" data-name="Rectangle 2378" width="110" height="4" rx="2" transform="translate(350 1392)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2311" data-name="Rectangle 2311" width="70" height="4" rx="2" transform="translate(350 1194)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2326" data-name="Rectangle 2326" width="70" height="4" rx="2" transform="translate(350 1230)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2328" data-name="Rectangle 2328" width="70" height="4" rx="2" transform="translate(350 1266)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2330" data-name="Rectangle 2330" width="70" height="4" rx="2" transform="translate(350 1302)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2373" data-name="Rectangle 2373" width="70" height="4" rx="2" transform="translate(350 1338)" fill="#f1f3f4"/>
+      <rect id="Rectangle_2375" data-name="Rectangle 2375" width="70" height="4" rx="2" transform="translate(350 1374)" fill="#f1f3f4"/>
+    </g>
+    <rect id="Rectangle_2379" data-name="Rectangle 2379" width="30" height="202" rx="4" transform="translate(369 1189)" fill="#aef2c9"/>
+    <rect id="Rectangle_2380" data-name="Rectangle 2380" width="30" height="202" rx="4" transform="translate(547 1189)" fill="#aef2c9"/>
+    <rect id="Rectangle_2381" data-name="Rectangle 2381" width="6" height="6" rx="2" transform="translate(388 1194)" fill="#0e1013"/>
+    <rect id="Rectangle_2382" data-name="Rectangle 2382" width="6" height="6" rx="2" transform="translate(566 1194)" fill="#0e1013"/>
+  </g>
+</svg>

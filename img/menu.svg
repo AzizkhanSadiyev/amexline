@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.675" height="65.369" viewBox="0 0 32.675 65.369">
+  <g id="menu" transform="translate(-237 -311.631)">
+    <g id="menu-2" data-name="menu" transform="translate(-1220.65 283.262)">
+      <rect id="Rectangle_1793" data-name="Rectangle 1793" width="32" height="32" transform="translate(1458.325 28.369)" fill="none"/>
+      <g id="menu-burger_1_" data-name="menu-burger (1)" transform="translate(1460.033 33.975)">
+        <path id="Path_5347" data-name="Path 5347" d="M1.3,0H27.285a1.3,1.3,0,0,1,0,2.6H1.3A1.3,1.3,0,0,1,1.3,0Z" transform="translate(0 9.095)"/>
+        <path id="Path_5346" data-name="Path 5346" d="M1.3,0H27.285a1.3,1.3,0,0,1,0,2.6H1.3A1.3,1.3,0,0,1,1.3,0Z"/>
+        <path id="Path_5345" data-name="Path 5345" d="M1.3,0H27.285a1.3,1.3,0,0,1,0,2.6H1.3A1.3,1.3,0,0,1,1.3,0Z" transform="translate(0 18.19)"/>
+      </g>
+    </g>
+    <g id="x" transform="translate(238 346)">
+      <rect id="Rectangle_1794" data-name="Rectangle 1794" width="32" height="32" transform="translate(-1 -1)" fill="none" opacity="0"/>
+      <path id="cross" d="M26.879.332h0a1.134,1.134,0,0,0-1.6,0L13.606,12,1.935.332a1.134,1.134,0,0,0-1.6,0h0a1.134,1.134,0,0,0,0,1.6L12,13.606.332,25.276a1.134,1.134,0,0,0,0,1.6h0a1.134,1.134,0,0,0,1.6,0L13.6,15.206l11.67,11.67a1.134,1.134,0,0,0,1.6,0h0a1.134,1.134,0,0,0,0-1.6L15.2,13.606l11.67-11.67a1.134,1.134,0,0,0,0-1.6Z" transform="translate(1.394 1.394)" fill="#0e1013"/>
+    </g>
+  </g>
+</svg>

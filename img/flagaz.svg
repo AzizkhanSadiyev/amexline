@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="wp" transform="translate(-0.557 -0.558)">
+    <rect id="Rectangle_1784" data-name="Rectangle 1784" width="20" height="20" transform="translate(0.558 0.558)" fill="none"/>
+    <g id="azerbaijan_1_" data-name="azerbaijan (1)" transform="translate(1.775 1.775)">
+      <path id="Path_5746" data-name="Path 5746" d="M17.566,159.305a8.743,8.743,0,0,0-.547-3.053l-8.236-.382-8.236.382a8.809,8.809,0,0,0,0,6.109l8.236.38,8.236-.382A8.744,8.744,0,0,0,17.566,159.305Z" transform="translate(0 -150.522)" fill="#d80027"/>
+      <path id="Path_5747" data-name="Path 5747" d="M24.176,350.729A8.781,8.781,0,0,0,32.412,345H15.94A8.781,8.781,0,0,0,24.176,350.729Z" transform="translate(-15.393 -333.164)" fill="#6da544"/>
+      <path id="Path_5748" data-name="Path 5748" d="M15.94,5.729H32.413a8.785,8.785,0,0,0-16.473,0Z" transform="translate(-15.393)" fill="#338af3"/>
+      <path id="Path_5749" data-name="Path 5749" d="M147.114,171.673a2.5,2.5,0,0,0,1.758.727l0,0a2.5,2.5,0,0,0,1.181-.3,3.053,3.053,0,1,1,0-4.372,2.527,2.527,0,0,0-1.181-.293,2.483,2.483,0,0,0-1.753,4.24Zm4-2.552-.329-.922-.333.922-.887-.42.422.888-.926.327.929.327-.422.888.887-.424.329.926.329-.926.886.424-.422-.888.925-.327-.925-.332L152,168.7Z" transform="translate(-139.893 -161.133)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
