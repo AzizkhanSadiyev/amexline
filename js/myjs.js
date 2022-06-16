@@ -185,6 +185,27 @@ $(document).ready(function () {
   fixedMobileNav();
   // Header fixed end
 
+  // benefit tabs
+  function benefitTabs() {
+    $(".clicked_tab_btn").each(function (index) {
+      let this_id = $(this).data("id");
+      if($(this).hasClass("active")) {
+        $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
+        $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
+      }
+
+      $(this).click(function () {
+        let this_id = $(this).data("id");
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+        $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
+        $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
+      });
+    });
+  }
+  benefitTabs();
+  // benefit tabs
+
   //Menu 
   function menuClick() {
     $(".menu_btn").click(function () {
@@ -227,10 +248,10 @@ var swiper = new Swiper('.top_slider .swiper-container', {
   noSwiping: true,
   allowTouchMove: true,
   loop: true,
-  speed: 2500,
+  speed: 2000,
   autoplay: {
-    slideSpeed: 2500,
-    delay: 2800,
+    slideSpeed: 2000,
+    delay: 2100,
     disableOnInteraction: false,
   },
   pagination: {
