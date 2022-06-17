@@ -34,7 +34,7 @@ $(document).ready(function () {
   function fixedMobileNav() {
 
     var wh = $(window).width();
-    if(wh > 1172) {
+    if (wh > 1172) {
       var hd_top = $(' ');
       var nav = $('.header_top ');
       var main = $('main ');
@@ -104,11 +104,11 @@ $(document).ready(function () {
         }
       });
     }
-    
 
-    $(window).resize(function () { 
+
+    $(window).resize(function () {
       var wh = $(window).width();
-      if(wh > 1172) {
+      if (wh > 1172) {
         var hd_top = $(' ');
         var nav = $('.header_top ');
         var main = $('main ');
@@ -179,7 +179,7 @@ $(document).ready(function () {
         });
       }
 
-      
+
     });
   }
   fixedMobileNav();
@@ -189,7 +189,7 @@ $(document).ready(function () {
   function benefitTabs() {
     $(".clicked_tab_btn").each(function (index) {
       let this_id = $(this).data("id");
-      if($(this).hasClass("active")) {
+      if ($(this).hasClass("active")) {
         $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
         $(this).parents(".bf_tb_hd").siblings(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
       }
@@ -235,9 +235,9 @@ $(document).ready(function () {
   //Equal height
   equalHeight();
 
-  function equalHeight(event) {
-    $('.col_in').matchHeight({ property: 'min-height' });
-  }
+  // function equalHeight(event) {
+  //   $('.col_in').matchHeight({ property: 'min-height' });
+  // }
   //Equal height
 });
 

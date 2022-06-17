@@ -16,11 +16,7 @@
 @font-face {
   font-family: 'SFProDisplay';
   src: url('../fonts/subset-SFProDisplay-Regular.eot');
-  src: url('../fonts/subset-SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/subset-SFProDisplay-Regular.woff2') format('woff2'),
-    url('../fonts/subset-SFProDisplay-Regular.woff') format('woff'),
-    url('../fonts/subset-SFProDisplay-Regular.ttf') format('truetype'),
-    url('../fonts/subset-SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+  src: url('../fonts/subset-SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-SFProDisplay-Regular.woff2') format('woff2'), url('../fonts/subset-SFProDisplay-Regular.woff') format('woff'), url('../fonts/subset-SFProDisplay-Regular.ttf') format('truetype'), url('../fonts/subset-SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -29,11 +25,7 @@
 @font-face {
   font-family: 'SFProDisplay';
   src: url('../fonts/subset-SFProDisplay-Bold.eot');
-  src: url('../fonts/subset-SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2'),
-    url('../fonts/subset-SFProDisplay-Bold.woff') format('woff'),
-    url('../fonts/subset-SFProDisplay-Bold.ttf') format('truetype'),
-    url('../fonts/subset-SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+  src: url('../fonts/subset-SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2'), url('../fonts/subset-SFProDisplay-Bold.woff') format('woff'), url('../fonts/subset-SFProDisplay-Bold.ttf') format('truetype'), url('../fonts/subset-SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -42,11 +34,7 @@
 @font-face {
   font-family: 'SFProDisplay';
   src: url('../fonts/subset-SFProDisplay-Semibold.eot');
-  src: url('../fonts/subset-SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/subset-SFProDisplay-Semibold.woff2') format('woff2'),
-    url('../fonts/subset-SFProDisplay-Semibold.woff') format('woff'),
-    url('../fonts/subset-SFProDisplay-Semibold.ttf') format('truetype'),
-    url('../fonts/subset-SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
+  src: url('../fonts/subset-SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-SFProDisplay-Semibold.woff2') format('woff2'), url('../fonts/subset-SFProDisplay-Semibold.woff') format('woff'), url('../fonts/subset-SFProDisplay-Semibold.ttf') format('truetype'), url('../fonts/subset-SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -144,7 +132,6 @@ main.p_top {
   }
 }
 
-
 .header_top.scroll_head nav.nav_mobile {
   height: calc(100% - 60px);
 }
@@ -164,8 +151,6 @@ main.p_top {
   background-color: #fff;
   border-bottom: 1px solid #E8EAED;
 }
-
-
 
 .header_top .main_center,
 .header_bottom .main_center {
@@ -244,6 +229,7 @@ main.p_top {
   object-fit: cover;
 }
 
+
 /* branch */
 
 .sect_branch {
@@ -308,7 +294,10 @@ main.p_top {
   background-image: url("../img/flagusa.svg");
 }
 
+
 /* branch */
+
+
 /* language */
 
 .lang_sect {
@@ -381,7 +370,8 @@ main.p_top {
   left: 0;
 }
 
-.lang_btn::before, .lang_btn::after {
+.lang_btn::before,
+.lang_btn::after {
   content: "";
   display: block;
   position: absolute;
@@ -569,8 +559,6 @@ ul.hdr_menu>li>a.active::after {
   margin: 20px 0 0 0px;
 }
 
-
-
 .mob_ftr .cnt_link {
   float: none;
   width: 100%;
@@ -664,7 +652,6 @@ nav.nav_mobile ul.hdr_menu>li>a::after {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-
 
 .sing_links:hover {
   background-color: #0c7bdb;
@@ -841,6 +828,7 @@ footer {
   float: right;
   margin: 0 0 0 auto;
 }
+
 
 /* footer menu */
 
@@ -1026,7 +1014,6 @@ main {
   overflow: hidden;
 }
 
-
 .wrap_manshet .mnsh_img::before {
   content: "";
   display: block;
@@ -1047,7 +1034,9 @@ main {
   margin: auto;
 }
 
+
 /* Manshet tab */
+
 .track_form {
   display: block;
   width: 100%;
@@ -1189,7 +1178,6 @@ main {
   display: block;
 }
 
-
 .bf_tb_items {
   display: none;
   width: 100%;
@@ -1198,6 +1186,7 @@ main {
 .bf_tb_items.active {
   display: block;
 }
+
 
 /* Manshet tab */
 
@@ -1338,13 +1327,9 @@ main {
 
 .wrap_stat {
   width: 100%;
-  padding: 65px 0;
+  padding: 40px 0;
   background-color: #fff;
   border-bottom: 1px solid #E8EAED;
-}
-
-.wrap_stat .row {
-  margin: 0 -20px;
 }
 
 .row {
@@ -1363,11 +1348,15 @@ main {
   width: 100%;
 }
 
+.wrap_stat .row {
+  margin: 0 -20px;
+}
+
 .stat_col {
   display: flex;
   align-items: center;
-  width: 20%;
-  padding: 0 20px;
+  width: 25%;
+  padding: 0 40px;
 }
 
 .stat_info {
@@ -1378,7 +1367,7 @@ main {
 
 .stat_val,
 .stat_name {
-  text-align: left;
+  text-align: center;
   letter-spacing: 0px;
   opacity: 1;
   overflow: hidden;
@@ -1388,23 +1377,27 @@ main {
   -webkit-line-clamp: 1;
 }
 
+.stat_val span {
+  color: #1E88E5;
+}
+
 .stat_val {
   font-weight: bold;
-  font-size: 46px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 48px;
   color: #0E1013;
 }
 
 .stat_name {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #3C4043;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0E1013;
 }
 
 .wrap_odds {
   width: 100%;
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .wrap_odds .row {
@@ -1424,12 +1417,12 @@ main {
   align-items: center;
   padding: 0px 0px;
   overflow: hidden;
-  background-color: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  background-color: #F1F3F4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .wrap_odds .odds_img {
@@ -1445,13 +1438,14 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* height: 285px; */
-  padding: 68px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  /*height: 285px;
+  */
+  /* padding: 68px; */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .odds_img {
@@ -1464,8 +1458,8 @@ main {
 
 .odds_img img {
   display: block;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
 }
@@ -1474,12 +1468,7 @@ main {
   content: "";
   display: block;
   width: 100%;
-  padding-top: 100%;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  padding-top: 43%;
 }
 
 .wrap_odds .odds_img {
@@ -1491,24 +1480,34 @@ main {
   position: absolute;
 }
 
+.lt_title img {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
 .lt_title {
-  margin-top: 30px;
-  text-align: left;
+  margin: 30px 0 6px 0;
+  padding: 0 30px;
+  /* text-align: left;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0px;
-  color: #0E1013;
+  color: #0E1013; */
 }
 
 .lt_info {
-  margin-top: 16px;
+  margin: 0px 0px 30px 0px;
+  padding: 0 30px;
   text-align: left;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 28px;
+  line-height: 34px;
   letter-spacing: 0px;
-  color: #5F6368;
+  color: #0E1013;
+  opacity: 1;
 }
 
 

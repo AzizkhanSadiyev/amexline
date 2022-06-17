@@ -284,34 +284,41 @@
         line-height: 31px;
     }
 
+    /* Wrap statistics */
     .wrap_stat {
-        padding: 40px 16px 40px 16px;
+        padding: 20px 16px 20px 16px;
     }
 
     .wrap_stat .row {
-        margin: 0 -10px;
+        margin: 0 -8px;
     }
 
     .stat_col {
-        width: 20%;
-        padding: 10px 10px 10px 10px;
+        width: 25%;
+        padding: 0px 8px 0px 8px;
     }
 
     .stat_val {
+        text-align: left;
         font-size: 30px;
-        line-height: 36px;
+        line-height: 1.2;
     }
 
+    .stat_name {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* Wrap statistics */
+
+    /* Wrap category */
     .wrap_odds {
-        padding: 50px 16px 30px 16px;
+        padding: 20px 16px 0px 16px;
     }
 
     .wrap_odds .row {
         margin: 0 -8px;
-    }
-
-    .wrap_odds .odds_img_col {
-        padding: 38px;
     }
 
     .odds_col {
@@ -319,26 +326,33 @@
         padding: 0px 8px 20px 8px;
     }
 
-    .odds_col .col_in {
+    /* .odds_col .col_in {
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         -o-border-radius: 0px;
+    } */
+    .lt_title img {
+        width: 32px;
+        height: 32px;
     }
 
     .lt_title {
-        margin-top: 20px;
-        font-size: 20px;
-        line-height: 24px;
+        margin: 20px 0 6px 0;
+        padding: 0 20px;
     }
 
     .lt_info {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 24px;
+        margin: 0px 0px 14px 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 21px;
     }
 
+    /* Wrap category */
+
+    /* Wrap popular */
     .wrap_popular {
         padding: 50px 16px 50px 16px;
     }
@@ -774,62 +788,75 @@
         line-height: 31px;
     }
 
+    /* Wrap statistics */
     .wrap_stat {
-        padding: 40px 16px 40px 16px;
+        padding: 20px 16px 20px 16px;
     }
 
     .wrap_stat .row {
-        margin: 0 -10px;
+        margin: 0 -8px;
     }
 
     .stat_col {
-        width: 33.333%;
-        padding: 10px 10px 10px 10px;
+        width: 25%;
+        padding: 0px 8px 0px 8px;
     }
 
     .stat_val {
+        text-align: left;
         font-size: 30px;
-        line-height: 36px;
+        line-height: 1.2;
     }
 
+    .stat_name {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* Wrap statistics */
+
+    /* Wrap category */
     .wrap_odds {
-        padding: 50px 16px 30px 16px;
+        padding: 20px 16px 0px 16px;
     }
 
     .wrap_odds .row {
         margin: 0 -8px;
     }
 
-    .wrap_odds .odds_img_col {
-        padding: 38px;
-    }
-
     .odds_col {
-        width: 50%;
+        width: 25%;
         padding: 0px 8px 20px 8px;
     }
 
-    .odds_col .col_in {
-        /* padding: 20px 16px; */
+    /* .odds_col .col_in {
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         -o-border-radius: 0px;
+    } */
+    .lt_title img {
+        width: 32px;
+        height: 32px;
     }
 
     .lt_title {
-        margin-top: 20px;
-        font-size: 20px;
-        line-height: 24px;
+        margin: 20px 0 6px 0;
+        padding: 0 20px;
     }
 
     .lt_info {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 24px;
+        margin: 0px 0px 14px 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 21px;
     }
 
+    /* Wrap category */
+
+    /* Wrap popular */
     .wrap_popular {
         padding: 50px 16px 50px 16px;
     }
@@ -1289,34 +1316,41 @@
         line-height: 31px;
     }
 
+    /* Wrap statistics */
     .wrap_stat {
-        padding: 40px 16px 40px 16px;
+        padding: 20px 16px 0px 16px;
     }
 
     .wrap_stat .row {
-        margin: 0 -10px;
+        margin: 0 -8px;
     }
 
     .stat_col {
-        width: 33.333%;
-        padding: 10px 10px 10px 10px;
+        width: 50%;
+        padding: 0px 8px 20px 8px;
     }
 
     .stat_val {
+        text-align: left;
         font-size: 30px;
-        line-height: 36px;
+        line-height: 1.2;
     }
 
+    .stat_name {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* Wrap statistics */
+
+    /* Wrap category */
     .wrap_odds {
-        padding: 50px 16px 30px 16px;
+        padding: 20px 16px 20px 16px;
     }
 
     .wrap_odds .row {
         margin: 0 -8px;
-    }
-
-    .wrap_odds .odds_img_col {
-        padding: 38px;
     }
 
     .odds_col {
@@ -1324,27 +1358,33 @@
         padding: 0px 8px 20px 8px;
     }
 
-    .odds_col .col_in {
-        /* padding: 20px 16px; */
+    /* .odds_col .col_in {
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         -o-border-radius: 0px;
+    } */
+    .lt_title img {
+        width: 32px;
+        height: 32px;
     }
 
     .lt_title {
-        margin-top: 20px;
-        font-size: 20px;
-        line-height: 24px;
+        margin: 20px 0 6px 0;
+        padding: 0 20px;
     }
 
     .lt_info {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 24px;
+        margin: 0px 0px 14px 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 21px;
     }
 
+    /* Wrap category */
+
+    /* Wrap popular */
     .wrap_popular {
         padding: 50px 16px 50px 16px;
     }
@@ -1829,34 +1869,41 @@
         line-height: 31px;
     }
 
+    /* Wrap statistics */
     .wrap_stat {
-        padding: 40px 16px 40px 16px;
+        padding: 20px 16px 0px 16px;
     }
 
     .wrap_stat .row {
-        margin: 0 -10px;
+        margin: 0 -8px;
     }
 
     .stat_col {
         width: 50%;
-        padding: 10px 10px 10px 10px;
+        padding: 0px 8px 20px 8px;
     }
 
     .stat_val {
+        text-align: left;
         font-size: 30px;
-        line-height: 36px;
+        line-height: 1.2;
     }
 
+    .stat_name {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* Wrap statistics */
+
+    /* Wrap category */
     .wrap_odds {
-        padding: 50px 16px 30px 16px;
+        padding: 20px 16px 20px 16px;
     }
 
     .wrap_odds .row {
         margin: 0 -8px;
-    }
-
-    .wrap_odds .odds_img_col {
-        padding: 38px;
     }
 
     .odds_col {
@@ -1864,25 +1911,33 @@
         padding: 0px 8px 20px 8px;
     }
 
-    .odds_col .col_in {
+    /* .odds_col .col_in {
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         -o-border-radius: 0px;
+    } */
+    .lt_title img {
+        width: 32px;
+        height: 32px;
     }
 
     .lt_title {
-        margin-top: 20px;
-        font-size: 20px;
-        line-height: 24px;
+        margin: 20px 0 6px 0;
+        padding: 0 20px;
     }
 
     .lt_info {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 24px;
+        margin: 0px 0px 14px 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 21px;
     }
+
+    /* Wrap category */
+
+    /* Wrap popular */
 
     .wrap_popular {
         padding: 50px 16px 50px 16px;
