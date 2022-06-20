@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#13a1e9"/>
+      <stop offset="1" stop-color="#08c"/>
+    </linearGradient>
+  </defs>
+  <g id="teleg" transform="translate(3.888 3.888)">
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="12" cy="12" r="12" transform="translate(-3.888 -3.888)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_1784" data-name="Rectangle 1784" width="16" height="16" transform="translate(0.112 0.112)" fill="none"/>
+    <path id="telegram" d="M5.406,9.567l-.228,3.206a.8.8,0,0,0,.637-.308L7.344,11l3.168,2.32c.581.324.99.153,1.147-.535l2.079-9.744h0c.184-.859-.311-1.195-.877-.984L.639,6.74c-.834.324-.822.789-.142,1l3.125.972L10.881,4.17c.342-.226.652-.1.4.125Z" transform="translate(1.223 0.371)" fill="#fff"/>
+  </g>
+</svg>
