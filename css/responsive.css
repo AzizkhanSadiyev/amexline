@@ -279,10 +279,10 @@
         padding: 0 0 30px 0;
     }
 
-    .sect_title {
+    /* .sect_title {
         font-size: 26px;
         line-height: 31px;
-    }
+    } */
 
     /* Wrap statistics */
     .wrap_stat {
@@ -486,6 +486,82 @@
     /* Contact page */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
+    /* ----------========== Tracking page responsive START  ==========--------- */
+    .wrap_track_top {
+        padding: 30px 16px;
+    }
+
+    .wrap_track_top .cnt_hd {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .wrap_tracking .bt_tb_title {
+        margin: 0 20px 0 0;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .track_left {
+        width: 50%;
+    }
+
+    .track_right {
+        width: 50%;
+        padding: 0 0 0 20px;
+    }
+
+    .wrap_tracking .bf_tb_hd {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* ----------========== Tracking page responsive FINISH  ==========--------- */
+    /* ----------========== CATEGORY page responsive START  ==========--------- */
+    .wrap_category {
+        padding: 40px 16px 80px 16px;
+    }
+
+    .wrap_category .bf_tb_content {
+        padding: 20px 0 20px 0;
+    }
+
+    .wrap_category .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_category .odds_col {
+        width: 25%;
+        padding: 0px 8px 20px 8px;
+    }
+
+    .wrap_category .lt_title {
+        margin: 16px 0 0px 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .wrap_category .lt_info {
+        margin: 8px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .wrap_category .lt_info_short {
+        margin: 4px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .wrap_detail .benefit_tabs {
+        margin-top: 0px;
+    }
+
+    .car_sect {
+        margin: 40px auto 40px auto;
+    }
+
+    /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
 
 }
 
@@ -1022,6 +1098,80 @@
     /* Contact page */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
+    /* ----------========== Tracking page responsive START  ==========--------- */
+    .wrap_track_top {
+        padding: 30px 16px;
+    }
+
+    .wrap_track_top .cnt_hd {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .wrap_tracking .bt_tb_title {
+        margin: 0 20px 0 0;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .track_left {
+        float: none;
+        width: 100%;
+    }
+
+    .track_right {
+        float: none;
+        width: 100%;
+        padding: 0 0 0 0px;
+    }
+
+    .wrap_tracking .bf_tb_hd {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* ----------========== Tracking page responsive FINISH  ==========--------- */
+    /* ----------========== CATEGORY page responsive START  ==========--------- */
+    .wrap_category {
+        padding: 40px 16px 80px 16px;
+    }
+
+    .wrap_category .bf_tb_content {
+        padding: 20px 0 20px 0;
+    }
+
+    .wrap_category .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_category .odds_col {
+        width: 25%;
+        padding: 0px 8px 20px 8px;
+    }
+
+    .wrap_category .lt_title {
+        margin: 16px 0 0px 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .wrap_category .lt_info {
+        margin: 8px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .wrap_category .lt_info_short {
+        margin: 4px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .manshet_appartment {
+        margin: 0px auto 30px auto;
+    }
+
+    /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
 
 }
 
@@ -1652,6 +1802,102 @@
     /* Contact page */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
+    /* ----------========== Tracking page responsive START  ==========--------- */
+    .wrap_tracking {
+        padding: 0 0 0px 0;
+    }
+
+    .wrap_track_top {
+        padding: 30px 16px;
+    }
+
+    .wrap_track_top .cnt_hd {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .wrap_tracking .bt_tb_title {
+        margin: 0 20px 0 0;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .track_left {
+        float: none;
+        width: 100%;
+    }
+
+    .track_right {
+        float: none;
+        width: 100%;
+        padding: 0 0 0 0px;
+    }
+
+    .wrap_tracking .bf_tb_hd {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .tracking-gallery .row {
+        margin: 0 -2.5px;
+    }
+
+    .gallery_item {
+        padding: 0 2.5px 5px 2.5px;
+    }
+
+    .track_info_table td, .track_info_table th {
+        padding: 15px 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .note_track {
+        padding: 20px;
+    }
+
+    /* ----------========== Tracking page responsive FINISH  ==========--------- */
+    /* ----------========== CATEGORY page responsive START  ==========--------- */
+    .wrap_category {
+        padding: 40px 16px 80px 16px;
+    }
+
+    .wrap_category .bf_tb_content {
+        padding: 20px 0 20px 0;
+    }
+
+    .wrap_category .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_category .odds_col {
+        width: 33.333%;
+        padding: 0px 8px 20px 8px;
+    }
+
+    .wrap_category .lt_title {
+        margin: 16px 0 0px 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .wrap_category .lt_info {
+        margin: 8px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .wrap_category .lt_info_short {
+        margin: 4px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .manshet_appartment {
+        margin: 0px auto 30px auto;
+    }
+
+    /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
 
 }
 
@@ -2282,5 +2528,115 @@
     /* Contact page */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
+
+    /* ----------========== Tracking page responsive START  ==========--------- */
+    .wrap_tracking {
+        padding: 0 0 0px 0;
+    }
+
+    .wrap_track_top {
+        padding: 30px 16px;
+    }
+
+    .wrap_track_top .cnt_hd {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .wrap_tracking .bt_tb_title {
+        margin: 0 20px 0 0;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .track_left {
+        float: none;
+        width: 100%;
+    }
+
+    .track_right {
+        float: none;
+        width: 100%;
+        padding: 0 0 0 0px;
+    }
+
+    .wrap_tracking .bf_tb_hd {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .tracking-gallery .row {
+        margin: 0 -2.5px;
+    }
+
+    .gallery_item {
+        padding: 0 2.5px 5px 2.5px;
+    }
+
+    .track_info_table td, .track_info_table th {
+        padding: 15px 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .note_track {
+        padding: 20px;
+    }
+
+    /* ----------========== Tracking page responsive FINISH  ==========--------- */
+    /* ----------========== CATEGORY page responsive START  ==========--------- */
+    .wrap_category {
+        padding: 40px 16px 80px 16px;
+    }
+
+    .wrap_category .bf_tb_content {
+        padding: 20px 0 20px 0;
+    }
+
+    .wrap_category .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_category .odds_col {
+        width: 50%;
+        padding: 0px 8px 20px 8px;
+    }
+
+    .wrap_category .lt_title {
+        margin: 16px 0 0px 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .wrap_category .lt_info {
+        margin: 8px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .wrap_category .lt_info_short {
+        margin: 4px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .manshet_appartment {
+        margin: 0px auto 30px auto;
+    }
+
+    .call_sect {
+        padding: 30px 16px;
+    }
+
+    .wrap_detail .bf_tb_content {
+        padding: 0px 0 30px 0;
+    }
+
+    .car_sect {
+        padding: 30px 20px;
+        margin: 0px auto 00px auto;
+    }
+
+    /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
 
 }

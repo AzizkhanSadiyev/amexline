@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24">
+  <g id="p_prev" transform="translate(-281 -357)">
+    <g id="a" transform="translate(281 369)">
+      <rect id="Rectangle_1900" data-name="Rectangle 1900" width="12" height="12" fill="none"/>
+      <g id="right-arrow" transform="translate(2.737 0.447)">
+        <g id="Group_3334" data-name="Group 3334">
+          <path id="Path_4913" data-name="Path 4913" d="M101.655,5.12,106.6.177a.609.609,0,0,1,.859,0l.364.364a.608.608,0,0,1,0,.859l-4.151,4.151,4.155,4.155a.609.609,0,0,1,0,.859l-.364.364a.609.609,0,0,1-.859,0l-4.947-4.947a.613.613,0,0,1,0-.862Z" transform="translate(-101.478)" fill="#0e1013"/>
+        </g>
+      </g>
+    </g>
+    <g id="a-2" data-name="a" transform="translate(281 357)">
+      <rect id="Rectangle_1900-2" data-name="Rectangle 1900" width="12" height="12" fill="none"/>
+      <g id="right-arrow-2" data-name="right-arrow" transform="translate(2.737 0.447)">
+        <g id="Group_3334-2" data-name="Group 3334">
+          <path id="Path_4913-2" data-name="Path 4913" d="M101.655,5.12,106.6.177a.609.609,0,0,1,.859,0l.364.364a.608.608,0,0,1,0,.859l-4.151,4.151,4.155,4.155a.609.609,0,0,1,0,.859l-.364.364a.609.609,0,0,1-.859,0l-4.947-4.947a.613.613,0,0,1,0-.862Z" transform="translate(-101.478)" fill="#80868b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
