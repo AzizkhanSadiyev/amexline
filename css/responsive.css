@@ -484,6 +484,21 @@
     }
 
     /* Contact page */
+    /* Adventages */
+    .wrap_advantage {
+        padding: 70px 16px;
+        background-color: #fff;
+    }
+
+    .wrap_advantage .row {
+        margin: 0 -20px;
+    }
+
+    .wrap_advantage .odds_col {
+        padding: 15px 20px;
+    }
+
+    /* Adventages */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
     /* ----------========== Tracking page responsive START  ==========--------- */
@@ -562,6 +577,14 @@
     }
 
     /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+
+    .prf_col {
+        padding: 0 0 0 30px;
+    }
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
 
 }
 
@@ -1097,6 +1120,22 @@
 
     /* Contact page */
 
+    /* Adventages */
+    .wrap_advantage {
+        padding: 70px 16px;
+        background-color: #fff;
+    }
+
+
+    .wrap_advantage .row {
+        margin: 0 -20px;
+    }
+
+    .wrap_advantage .odds_col {
+        padding: 15px 20px;
+    }
+
+    /* Adventages */
     /* ----------========== Main page responsive FINISH  ==========--------- */
     /* ----------========== Tracking page responsive START  ==========--------- */
     .wrap_track_top {
@@ -1172,6 +1211,72 @@
     }
 
     /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
+    /* ----------========== ABOUT page responsive START  ==========--------- */
+
+    .wrap_about_block .row {
+        margin: 0 -10px !important;
+    }
+
+    .wrap_about_block .odds_col {
+        width: 20%;
+        padding: 0 10px 20px 10px !important;
+    }
+
+    .wrap_about_items {
+        padding: 0px 16px;
+    }
+
+    .abt_itm {
+        padding: 30px 0;
+        margin: 0px -20px;
+    }
+
+
+    .abt_item_content {
+        width: 50%;
+    }
+
+    .abt_item_img {
+        width: 50%;
+    }
+
+    .abt_item_title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .abt_item_cinfo {
+        margin-top: 14px;
+        font-size: 17px;
+    }
+
+    /* ----------========== ABOUT page responsive FINISH  ==========--------- */
+
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+
+    .prof_left {
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .prof_right {
+        float: none;
+        width: 100%;
+    }
+
+    .prof_links .call_phone {
+        min-width: 130px;
+        max-width: calc(50% - 7px);
+        width: auto;
+    }
+
+    .prf_col {
+        padding: 20px 0 0 0px;
+    }
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
 
 }
 
@@ -1800,6 +1905,26 @@
     }
 
     /* Contact page */
+    /* Adventages */
+    .wrap_advantage {
+        padding: 70px 16px;
+        background-color: #fff;
+    }
+
+    .wrap_advantage .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_advantage .odds_col {
+        padding: 15px 8px;
+    }
+
+    .wrap_advantage .lt_info {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* Adventages */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
     /* ----------========== Tracking page responsive START  ==========--------- */
@@ -1898,6 +2023,122 @@
     }
 
     /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
+    /* ----------========== ABOUT page responsive START  ==========--------- */
+    .wrap_about_top {
+        padding: 40px 16px;
+    }
+
+    .wrap_about_top .cnt_hd {
+        font-size: 30px;
+    }
+
+    .wrap_about_top .cnt_info {
+        margin: 20px 0 0 0;
+        font-size: 17px;
+    }
+
+    .wrap_about_block {
+        padding: 30px 16px;
+    }
+
+    .wrap_about_block .cnt_hd, .wrap_advantage .cnt_hd {
+        margin: 0 0 20px 0;
+    }
+
+    .wrap_about_block .row {
+        margin: 0 -10px !important;
+    }
+
+    .wrap_about_block .odds_col {
+        width: 33.33%;
+        padding: 0 10px 20px 10px !important;
+    }
+
+    .wrap_about_items {
+        padding: 0px 16px;
+    }
+
+    .abt_itm {
+        flex-direction: column-reverse;
+        padding: 30px 0;
+        margin: 0px -20px;
+    }
+
+    .abt_itm:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    .abt_item_content {
+        float: none;
+        padding: 0px 20px 0px 20px;
+        width: 100%;
+    }
+
+    .abt_item_img {
+        float: none;
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .abt_item_title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .abt_item_cinfo {
+        margin-top: 14px;
+        font-size: 17px;
+    }
+
+    /* ----------========== ABOUT page responsive FINISH  ==========--------- */
+
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+    .prof_items {
+        padding: 0px 0 20px 0;
+    }
+
+    .prof_itm_content {
+        float: none;
+        width: 100%;
+        padding: 20px 0 0 0px;
+    }
+
+    .prof_left {
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .prof_right {
+        float: none;
+        width: 100%;
+    }
+
+    .prof_itm_img {
+        float: none;
+        width: 70px;
+    }
+
+    .prf_car_head {
+        position: absolute;
+        top: 0;
+        margin: 0 0 0px 0;
+        padding: 0 0 0 86px;
+    }
+
+    .prof_itm_content .profile_hd {
+        font-size: 17px;
+    }
+
+    .prf_col {
+        float: none;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 20px 0 0 0px;
+    }
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
 
 }
 
@@ -2526,6 +2767,26 @@
 
 
     /* Contact page */
+    /* Adventages */
+    .wrap_advantage {
+        padding: 70px 16px;
+        background-color: #fff;
+    }
+
+    .wrap_advantage .row {
+        margin: 0 -8px;
+    }
+
+    .wrap_advantage .odds_col {
+        padding: 15px 8px;
+    }
+
+    .wrap_advantage .lt_info {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* Adventages */
 
     /* ----------========== Main page responsive FINISH  ==========--------- */
 
@@ -2638,5 +2899,121 @@
     }
 
     /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
+
+    /* ----------========== ABOUT page responsive START  ==========--------- */
+    .wrap_about_top {
+        padding: 40px 16px;
+    }
+
+    .wrap_about_top .cnt_hd {
+        font-size: 30px;
+    }
+
+    .wrap_about_top .cnt_info {
+        margin: 20px 0 0 0;
+        font-size: 17px;
+    }
+
+    .wrap_about_block {
+        padding: 30px 16px;
+    }
+
+    .wrap_about_block .cnt_hd, .wrap_advantage .cnt_hd {
+        margin: 0 0 20px 0;
+    }
+
+    .wrap_about_block .row {
+        margin: 0 -10px !important;
+    }
+
+    .wrap_about_block .odds_col {
+        width: 50%;
+        padding: 0 10px 20px 10px !important;
+    }
+
+    .wrap_about_items {
+        padding: 0px 16px;
+    }
+
+    .abt_itm {
+        flex-direction: column-reverse;
+        padding: 30px 0;
+        margin: 0px -20px;
+    }
+
+    .abt_itm:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    .abt_item_content {
+        float: none;
+        padding: 0px 20px 0px 20px;
+        width: 100%;
+    }
+
+    .abt_item_img {
+        float: none;
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .abt_item_title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .abt_item_cinfo {
+        margin-top: 14px;
+        font-size: 17px;
+    }
+
+    /* ----------========== ABOUT page responsive FINISH  ==========--------- */
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+    .prof_items {
+        padding: 0px 0 20px 0;
+    }
+
+    .prof_itm_content {
+        float: none;
+        width: 100%;
+        padding: 20px 0 0 0px;
+    }
+
+    .prof_left {
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .prof_right {
+        float: none;
+        width: 100%;
+    }
+
+    .prof_itm_img {
+        float: none;
+        width: 70px;
+    }
+
+    .prf_car_head {
+        position: absolute;
+        top: 0;
+        margin: 0 0 0px 0;
+        padding: 0 0 0 86px;
+    }
+
+    .prof_itm_content .profile_hd {
+        font-size: 17px;
+    }
+
+    .prf_col {
+        float: none;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 20px 0 0 0px;
+    }
+
+    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
 
 }
