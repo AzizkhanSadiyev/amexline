@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>amexline</title>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/swiper.min.css" />
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css?v2" />
+        <link rel="stylesheet" href="css/responsive.css?v2" />
+        <!-- Jquery part -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <div class="page">
+            <header class="header" id="header">
+                <div class="header_top clearfix">
+                    <div class="main_center clearfix">
+                        <nav class="nav_desk">
+                            <ul class="hdr_menu clearfix">
+                                <li>
+                                    <a href="" class="">Ana səhifə </a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Bölmələr </a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Haqqımızda </a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Gömrük hesablaması </a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Dəstək </a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Əlaqə </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="nav_mobile">
+                            <div class="mob_body">
+                                <ul class="hdr_menu clearfix">
+                                    <li>
+                                        <a href="" class="">Ana səhifə </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Bölmələr </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Haqqımızda </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Gömrük hesablaması </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Dəstək </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Əlaqə </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob_ftr clearfix">
+                                <div class="sect_branch">
+                                    <a href="#" class="branch_item flag_az">
+                                        <div class="branch_head">Bakı filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                    <a href="#" class="branch_item flag_ge">
+                                        <div class="branch_head">Gürcüstan filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                    <a href="#" class="branch_item flag_usa">
+                                        <div class="branch_head">Amerika filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <div class="lang_sect">
+                            <div class="lang_btn">Azərbaycanca</div>
+                            <ul class="langs">
+                                <!-- <li><a href="">Azərbaycanca</a> </li> -->
+                                <li><a href="">İngiliscə</a></li>
+                                <li><a href="">Rusca</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_bottom clearfix">
+                    <div class="main_center clearfix">
+                        <div class="header_left">
+                            <div class="logo_sect clearfix">
+                                <div class="menu_btn"></div>
+                                <a href="/" class="logo">
+                                    <div class="logo_img">
+                                        <img src="img/logo.svg" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sect_branch">
+                                <a href="#" class="branch_item flag_az">
+                                    <div class="branch_head">Bakı filialı</div>
+                                    <div class="branch_icon">Filial</div>
+                                </a>
+                                <a href="#" class="branch_item flag_ge">
+                                    <div class="branch_head">Gürcüstan filialı</div>
+                                    <div class="branch_icon">Filial</div>
+                                </a>
+                                <a href="#" class="branch_item flag_usa">
+                                    <div class="branch_head">Amerika filialı</div>
+                                    <div class="branch_icon">Filial</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header_right clearfix">
+                            <a href="" class="sing_links">
+                                <div class="sign_itm">
+                                    <span> Müştəri profili </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="section_wrap wrap_calculator_page">
+                    <div class="section_wrap wrap_tracking">
+                        <div class="section_wrap wrap_track_body">
+                            <div class="main_center clearfix">
+                                <div class="sect_header clearfix">
+                                    <h2 class="sect_title">Gömrük hesablaması</h2>
+                                </div>
+                                <div class="track_content clearfix">
+                                    <div class="track_left">
+
+                                        <div class="benefit_tabs">
+                                            <div class="bf_tb_hd clearfix">
+                                                <div class="bt_tb_title clicked_tab_btn active" data-id="0">Bakı</div>
+                                                <div class="bt_tb_title clicked_tab_btn " data-id="1">Gürcüstan</div>
+                                            </div>
+                                            <div class="bf_tb_content clearfix">
+                                                <div class="bf_tb_items active" data-id="0">
+                                                    <div class="tracking-gallery">
+                                                        <div class="lg_input select_val">
+                                                            <select class="lg_inputs">
+                                                                <option value="0" disabled>Nəqliyyat vasitəsinin növü
+                                                                </option>
+                                                                <option value="1">Nəqliyyat vasitəsinin növü</option>
+                                                                <option value="2">Nəqliyyat vasitəsinin növü</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="row_form clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="lg_input select_val">
+                                                                    <select class="lg_inputs">
+                                                                        <option value="0" disabled>Mühərrikin növü
+                                                                        </option>
+                                                                        <option value="1">Mühərrikin növü</option>
+                                                                        <option value="2">Mühərrikin növü</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="lg_input ">
+                                                                    <input type="text" value=""
+                                                                        placeholder="Avtomobilin gömrük dəyəri ($)"
+                                                                        class="lg_inputs ">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row_form clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="lg_input ">
+                                                                    <input type="text" value=""
+                                                                        placeholder="Mühərrikin həcmi (sm3)"
+                                                                        class="lg_inputs ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="lg_input select_val">
+                                                                    <select class="lg_inputs">
+                                                                        <option value="0" disabled>İstehsal tarixi
+                                                                        </option>
+                                                                        <option value="1">İstehsal tarixi</option>
+                                                                        <option value="2">İstehsal tarixi</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sect_origin">
+                                                            Mənşə (istehsal) ölkəsi və göndərən ölkə haqqında
+                                                            <div class="popover_sect">
+                                                                <span class="popover">
+                                                                    20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="label_sect">
+                                                            <div class="lp-check">
+                                                                <label>
+                                                                    <input type="radio" name="remember">
+                                                                    <span class="check_icn">Digər ölkələr </span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="lp-check">
+                                                                <label>
+                                                                    <input type="radio" name="remember">
+                                                                    <span class="check_icn">
+                                                                        Azad ticarət sazişi bağlanan
+                                                                        ölkədə istehsal olunub və oradan gətirilir
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row_form calc_buttons clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="login_submit clearfix">
+                                                                    <button type="submit" class="login-btn calc">
+                                                                        <span>
+                                                                            Hesabla
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="login_submit clearfix">
+                                                                    <button type="submit" class="login-btn clear">
+                                                                        <span>
+                                                                            Təmizlə
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="bf_tb_items" data-id="1">
+                                                    <div class="tracking-gallery">
+                                                        <div class="lg_input select_val  ">
+                                                            <select class="lg_inputs">
+                                                                <option value="0" disabled>Nəqliyyat vasitəsinin növü
+                                                                </option>
+                                                                <option value="1">Nəqliyyat vasitəsinin növü</option>
+                                                                <option value="2">Nəqliyyat vasitəsinin növü</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="row_form clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="lg_input select_val  ">
+                                                                    <select class="lg_inputs">
+                                                                        <option value="0" disabled>Mühərrikin növü
+                                                                        </option>
+                                                                        <option value="1">Mühərrikin növü</option>
+                                                                        <option value="2">Mühərrikin növü</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="lg_input ">
+                                                                    <input type="text" value=""
+                                                                        placeholder="Avtomobilin gömrük dəyəri ($)"
+                                                                        class="lg_inputs ">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row_form clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="lg_input ">
+                                                                    <input type="text" value=""
+                                                                        placeholder="Mühərrikin həcmi (sm3)"
+                                                                        class="lg_inputs ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="lg_input select_val  ">
+                                                                    <select class="lg_inputs">
+                                                                        <option value="0" disabled>İstehsal tarixi
+                                                                        </option>
+                                                                        <option value="1">İstehsal tarixi</option>
+                                                                        <option value="2">İstehsal tarixi</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sect_origin">
+                                                            Mənşə (istehsal) ölkəsi və göndərən ölkə haqqında
+                                                            <div class="popover_sect">
+                                                                <span class="popover">
+                                                                    20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ20% ilkin ödəniş edilibsə, 80%
+                                                                    net məbləğ
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="label_sect">
+                                                            <div class="lp-check">
+                                                                <label>
+                                                                    <input type="radio" name="remember">
+                                                                    <span class="check_icn">Digər ölkələr </span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="lp-check">
+                                                                <label>
+                                                                    <input type="radio" name="remember">
+                                                                    <span class="check_icn">
+                                                                        Azad ticarət sazişi bağlanan
+                                                                        ölkədə istehsal olunub və oradan gətirilir
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row_form clearfix">
+                                                            <div class="col_regst">
+                                                                <div class="login_submit clearfix">
+                                                                    <button type="submit" class="login-btn calc">
+                                                                        <span>
+                                                                            Hesabla
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col_regst">
+                                                                <div class="login_submit clearfix">
+                                                                    <button type="submit" class="login-btn clear">
+                                                                        <span>
+                                                                            Təmizlə
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="track_right">
+                                        <div class="benefit_tabs">
+                                            <div class="bf_tb_content clearfix">
+                                                <div class="bf_tb_items active">
+                                                    <div class="track_info clearfix">
+                                                        <table class="track_info_table">
+                                                            <tr>
+                                                                <td>İdxal gömrük rüsumu</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>ƏDV</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Gömrük yığımları</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Aksiz vergisi</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vəsiqə haqqı</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Elektron gömrük xidməti haqqı</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Elektron gömrük xidməti üzrə ƏDV</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cəmi</td>
+                                                                <td>0 AZN</td>
+                                                            </tr>
+                                                        </table>
+                                                        <div class="sect_nominal">
+                                                            Dolların məzənnəsi: 1$ = 1.7 AZN
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note_track">
+                                    <b>QEYD:</b> Bəzən izləmə xidmətləri heç bir nəticə verə bilmir, çünki
+                                    hansı göndərmə xəttinin gəmisi olduğunu bilmirdi. Əgər
+                                    konteynerin izlənməsi heç bir nəticə vermədisə, lütfən, Göndərmə xətti sahəsində
+                                    seçin:
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer_full clearfix">
+                    <div class="ftr_top clearfix">
+                        <div class="main_center clearfix">
+                            <div class="logo_sect clearfix">
+                                <a href="/" class="logo">
+                                    <div class="logo_img">
+                                        <img src="img/logo_footer.svg" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="ftr_menu_sect">
+                                <div class="sect_branch">
+                                    <a href="#" class="branch_item flag_az">
+                                        <div class="branch_head">Bakı filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                    <a href="#" class="branch_item flag_ge">
+                                        <div class="branch_head">Gürcüstan filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                    <a href="#" class="branch_item flag_usa">
+                                        <div class="branch_head">Amerika filialı</div>
+                                        <div class="branch_icon">Filial</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyrite">
+                        <div class="main_center clearfix">
+                            <div class="ftr_left">
+                                <a href="#" class="created_by_sm">
+                                    <div class="creat_sm_title">Created by</div>
+                                    <div class="creat_sm_icon">
+                                        <img src="img/smlogo.png" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="ftr_right">
+                                <div class="copyrite_inner">Copyright © 2022 Amexline. All Rights Reserved</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/jquery.matchHeight-min.js"></script>
+        <script src="js/myjs.js"></script>
+
+</html>

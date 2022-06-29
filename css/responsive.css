@@ -113,6 +113,10 @@
         margin: 0;
     }
 
+    .ftr_top .logo {
+        justify-content: flex-start;
+    }
+
     .menu_btn {
         display: block;
     }
@@ -207,14 +211,14 @@
     } */
 
 
-    .wrap_manshet {
+    /* .wrap_manshet {
         padding: 40px 16px;
         min-height: 290px;
-    }
+    } */
 
-    .wrap_manshet .mnsh_img::before {
+    /* .wrap_manshet .mnsh_img::before {
         padding-top: 36%;
-    }
+    } */
 
     /* .top_slider {
         padding: 0 0 34px 0;
@@ -263,9 +267,9 @@
         display: none;
     }
 
-    .lg_inputs {
+    /* .lg_inputs {
         padding: 22px 20px;
-    }
+    } */
 
     .top_sld_catg {
         font-size: 20px;
@@ -293,21 +297,14 @@
         margin: 0 -8px;
     }
 
+
     .stat_col {
         width: 25%;
         padding: 0px 8px 16px 8px;
     }
 
-    .stat_val {
-        text-align: left;
-        font-size: 30px;
-        line-height: 1.2;
-    }
-
-    .stat_name {
-        text-align: left;
-        font-size: 14px;
-        line-height: 1.2;
+    .stat_val, .stat_name {
+        text-align: center;
     }
 
     /* Wrap statistics */
@@ -486,7 +483,7 @@
     /* Contact page */
     /* Adventages */
     .wrap_advantage {
-        padding: 70px 16px;
+        padding: 65px 16px;
         background-color: #fff;
     }
 
@@ -681,6 +678,10 @@
         margin: 0;
     }
 
+    .ftr_top .logo {
+        justify-content: flex-start;
+    }
+
     .menu_btn {
         display: block;
     }
@@ -775,14 +776,14 @@
     } */
 
 
-    .wrap_manshet {
+    /* .wrap_manshet {
         padding: 40px 16px;
         min-height: 290px;
-    }
+    } */
 
-    .wrap_manshet .mnsh_img::before {
+    /* .wrap_manshet .mnsh_img::before {
         padding-top: 36%;
-    }
+    } */
 
     /* .top_slider {
         padding: 0 0 34px 0;
@@ -831,9 +832,9 @@
         display: none;
     }
 
-    .lg_inputs {
+    /* .lg_inputs {
         padding: 22px 20px;
-    }
+    } */
 
     .top_sld_catg {
         font-size: 20px;
@@ -861,22 +862,17 @@
         margin: 0 -8px;
     }
 
+
     .stat_col {
-        width: 25%;
+        justify-content: flex-start;
+        width: 50%;
         padding: 0px 8px 16px 8px;
     }
 
-    .stat_val {
+    .stat_val, .stat_name {
         text-align: left;
-        font-size: 30px;
-        line-height: 1.2;
     }
 
-    .stat_name {
-        text-align: left;
-        font-size: 14px;
-        line-height: 1.2;
-    }
 
     /* Wrap statistics */
 
@@ -1122,7 +1118,7 @@
 
     /* Adventages */
     .wrap_advantage {
-        padding: 70px 16px;
+        padding: 65px 16px;
         background-color: #fff;
     }
 
@@ -1373,6 +1369,10 @@
         margin: 0;
     }
 
+    .ftr_top .logo {
+        justify-content: flex-start;
+    }
+
     .menu_btn {
         display: block;
     }
@@ -1491,14 +1491,14 @@
     } */
 
 
-    .wrap_manshet {
+    /* .wrap_manshet {
         padding: 40px 16px;
         min-height: 290px;
-    }
+    } */
 
-    .wrap_manshet .mnsh_img::before {
+    /* .wrap_manshet .mnsh_img::before {
         padding-top: 56%;
-    }
+    } */
 
     /* .top_slider {
         padding: 0 0 34px 0;
@@ -1547,9 +1547,9 @@
         display: none;
     }
 
-    .lg_inputs {
+    /* .lg_inputs {
         padding: 22px 20px;
-    }
+    } */
 
     .top_sld_catg {
         font-size: 20px;
@@ -1577,14 +1577,16 @@
         margin: 0 -8px;
     }
 
+
     .stat_col {
+        justify-content: flex-start;
         width: 50%;
         padding: 0px 8px 16px 8px;
     }
 
     .stat_val {
         text-align: left;
-        font-size: 30px;
+        font-size: 24px;
         line-height: 1.2;
     }
 
@@ -1593,6 +1595,7 @@
         font-size: 14px;
         line-height: 1.2;
     }
+
 
     /* Wrap statistics */
 
@@ -1907,7 +1910,7 @@
     /* Contact page */
     /* Adventages */
     .wrap_advantage {
-        padding: 70px 16px;
+        padding: 65px 16px;
         background-color: #fff;
     }
 
@@ -2140,6 +2143,71 @@
 
     /* ----------========== PROFILE page responsive FINISH  ==========--------- */
 
+    /* ----------========== CALCULATOR page responsive START  ==========--------- */
+    .wrap_calculator_page .sect_header {
+        padding: 0 0 30px 0;
+    }
+
+    .row_form {
+        margin: 0 0;
+    }
+
+    .col_regst {
+        float: none;
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .row_form.calc_buttons {
+        margin: 0 -7px;
+    }
+
+    .calc_buttons .col_regst {
+        float: left;
+        width: 50%;
+        padding: 0 7px;
+    }
+
+    .wrap_calculator_page .track_content {
+        padding: 0 0 0px 0;
+    }
+
+    .wrap_calculator_page .track_left .bf_tb_content {
+        padding-bottom: 40px;
+    }
+
+    .wrap_calculator_page .track_right .bf_tb_content {
+        padding-bottom: 0px;
+    }
+
+    .sect_origin {
+        position: relative;
+    }
+
+    .popover_sect {
+        position: static;
+    }
+
+    .popover {
+        left: auto;
+        right: 0;
+        bottom: 100%;
+        width: 100%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+
+    .popover::after {
+        left: auto;
+        right: 0;
+    }
+
+    /* ----------========== CALCULATOR page responsive FINISH  ==========--------- */
+
 }
 
 @media only screen and (min-width: 0px) and (max-width: 560px) {
@@ -2228,11 +2296,16 @@
         margin: auto;
     }
 
+
     .logo_img {
         display: block;
         width: 164px;
         height: 40px;
         margin: 0;
+    }
+
+    .ftr_top .logo {
+        justify-content: flex-start;
     }
 
     .menu_btn {
@@ -2354,13 +2427,26 @@
     } */
 
 
-    .wrap_manshet {
+    /* .wrap_manshet {
         padding: 40px 16px;
         min-height: 0;
+    } */
+
+    /* .wrap_manshet .mnsh_img::before {
+        padding-top: 76%;
+    } */
+
+    .wrap_manshet .mnsh_content {
+        padding: 40px 16px;
+        max-width: 790px;
     }
 
-    .wrap_manshet .mnsh_img::before {
-        padding-top: 76%;
+    .top_slider {
+        min-height: 300px;
+    }
+
+    .wrap_manshet .mnsh_img {
+        min-height: 300px;
     }
 
     /* .top_slider {
@@ -2410,9 +2496,13 @@
         display: none;
     }
 
-    .lg_inputs {
+    .track_form .lg_inputs {
         padding: 22px 20px;
     }
+
+    /* .lg_inputs {
+        padding: 22px 20px;
+    } */
 
     .top_sld_catg {
         font-size: 20px;
@@ -2440,13 +2530,14 @@
     }
 
     .stat_col {
+        justify-content: flex-start;
         width: 50%;
         padding: 0px 8px 16px 8px;
     }
 
     .stat_val {
         text-align: left;
-        font-size: 30px;
+        font-size: 24px;
         line-height: 1.2;
     }
 
@@ -2528,6 +2619,10 @@
         margin: 4px 0px 0px 0px;
         font-size: 12px;
         line-height: 14px;
+    }
+
+    .comments_slider .sect_header {
+        padding: 0 0 40px 0;
     }
 
     /* Wrap populyar */
@@ -2769,7 +2864,7 @@
     /* Contact page */
     /* Adventages */
     .wrap_advantage {
-        padding: 70px 16px;
+        padding: 65px 16px;
         background-color: #fff;
     }
 
@@ -2898,6 +2993,10 @@
         margin: 0px auto 00px auto;
     }
 
+    .wrap_category .bt_tb_title {
+        padding: 12px 16px;
+    }
+
     /* ----------========== CATEGORY page responsive FINISH  ==========--------- */
 
     /* ----------========== ABOUT page responsive START  ==========--------- */
@@ -2969,7 +3068,7 @@
 
     /* ----------========== ABOUT page responsive FINISH  ==========--------- */
 
-    /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+    /* ----------========== PROFILE page responsive START  ==========--------- */
     .prof_items {
         padding: 0px 0 20px 0;
     }
@@ -3015,5 +3114,70 @@
     }
 
     /* ----------========== PROFILE page responsive FINISH  ==========--------- */
+
+    /* ----------========== CALCULATOR page responsive START  ==========--------- */
+    .wrap_calculator_page .sect_header {
+        padding: 0 0 30px 0;
+    }
+
+    .row_form {
+        margin: 0 0;
+    }
+
+    .col_regst {
+        float: none;
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .row_form.calc_buttons {
+        margin: 0 -7px;
+    }
+
+    .calc_buttons .col_regst {
+        float: left;
+        width: 50%;
+        padding: 0 7px;
+    }
+
+    .wrap_calculator_page .track_content {
+        padding: 0 0 0px 0;
+    }
+
+    .wrap_calculator_page .track_left .bf_tb_content {
+        padding-bottom: 40px;
+    }
+
+    .wrap_calculator_page .track_right .bf_tb_content {
+        padding-bottom: 0px;
+    }
+
+    .sect_origin {
+        position: relative;
+    }
+
+    .popover_sect {
+        position: static;
+    }
+
+    .popover {
+        left: auto;
+        right: 0;
+        bottom: 100%;
+        width: 100%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+
+    .popover::after {
+        left: auto;
+        right: 0;
+    }
+
+    /* ----------========== CALCULATOR page responsive FINISH  ==========--------- */
 
 }

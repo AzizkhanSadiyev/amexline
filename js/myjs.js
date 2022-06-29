@@ -190,16 +190,16 @@ $(document).ready(function () {
     $(".clicked_tab_btn").each(function (index) {
       let this_id = $(this).data("id");
       if($(this).hasClass("active")) {
-        $(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
-        $(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
+        $(this).parents(".benefit_tabs").find(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
+        $(this).parents(".benefit_tabs").find(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
       }
 
       $(this).click(function () {
         let this_id = $(this).data("id");
         $(this).addClass("active");
         $(this).siblings().removeClass("active");
-        $(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
-        $(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
+        $(this).parents(".benefit_tabs").find(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").addClass("active");
+        $(this).parents(".benefit_tabs").find(".bf_tb_content").find(".bf_tb_items[data-id=" + this_id + "]").siblings().removeClass("active");
       });
     });
   }
@@ -290,7 +290,7 @@ var swiper = new Swiper('.auksion_slider .swiper-container', {
       spaceBetween: 20,
     },
     767: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 16,
     },
     560: {
@@ -399,7 +399,7 @@ var swiper = new Swiper('.sell_slider .swiper-container', {
       spaceBetween: 20,
     },
     767: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 16,
     },
     560: {
@@ -473,7 +473,7 @@ var swiper = new Swiper('.wrap_partners .swiper-container', {
   }
 });
 /// manshet slider ///
-var galleryThumbs = new Swiper('div.manshet_appartment .gallery-thumbs', {
+var galleryThumbs = new Swiper('.manshet_appartment .gallery-thumbs', {
   spaceBetween: 12,
   slidesPerView: 4,
   loop: true,
@@ -483,12 +483,13 @@ var galleryThumbs = new Swiper('div.manshet_appartment .gallery-thumbs', {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   navigation: {
-    nextEl: 'div.manshet_appartment .swiper-button-next',
-    prevEl: 'div.manshet_appartment .swiper-button-prev',
+    nextEl: '.manshet_appartment .swiper-button-next',
+    prevEl: '.manshet_appartment .swiper-button-prev',
   },
+  speed: 2200,
   autoplay: {
-    delay: 3000,
-    slideSpeed: 3000,
+    delay: 2200,
+    slideSpeed: 2200,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -500,7 +501,7 @@ var galleryThumbs = new Swiper('div.manshet_appartment .gallery-thumbs', {
     }
   }
 });
-var galleryTop = new Swiper('div.manshet_appartment .gallery-top', {
+var galleryTop = new Swiper('.manshet_appartment .gallery-top', {
   spaceBetween: 12,
   loop: true,
   loopedSlides: 40, //looped slides should be the same
