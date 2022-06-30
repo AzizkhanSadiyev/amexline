@@ -326,29 +326,31 @@ main.p_top {
 
 
 /* language */
+/* .lang_sect.clicked {
+  padding: 10px 16px;
+} */
 
 .lang_sect {
   display: block;
   float: right;
   position: relative;
   padding: 10px 0px;
-  background-color: #FFF;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  /* box-shadow: 0px 5px 10px #0E10130F; */
 }
 
-.lang_sect.clicked {
+/* .lang_sect.clicked {
   box-shadow: 0px 5px 10px #0E10130F;
-}
+} */
 
 .lang_btn {
   display: flex;
@@ -1577,6 +1579,34 @@ main {
   position: relative;
   width: 100%;
   overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.wrap_category .odds_img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+.wrap_category .odds_img img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
 }
 
 .wrap_category .odds_img {
@@ -1586,6 +1616,7 @@ main {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 
 .wrap_category .odds_img:hover img {
   transform: scale(1.05);
@@ -1657,6 +1688,28 @@ main {
   /* background-color: #ECF8F8; */
 }
 
+.wrap_popular .odds_img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+.wrap_popular .odds_img img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+}
 
 .wrap_popular .lt_title span {
   color: #1E88E5;
@@ -1849,6 +1902,35 @@ main {
   -moz-border-radius: 10px 0 0 10px;
   -ms-border-radius: 10px 0 0 10px;
   -o-border-radius: 10px 0 0 10px;
+}
+
+.comment_img .odds_img {
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+
+.comment_img .odds_img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.comment_img .odds_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
 }
 
 .comment_content {
@@ -4139,6 +4221,7 @@ main {
   right: 0;
   left: 0;
   bottom: 0;
+  object-fit: cover;
 }
 
 .prof_itm_content {

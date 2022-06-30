@@ -244,7 +244,7 @@ $(document).ready(function () {
 // Scroll pages
 var swiper = new Swiper('.top_slider .swiper-container', {
   slidesPerView: 1,
-  spaceBetween: 40,
+  spaceBetween: 0,
   noSwiping: true,
   allowTouchMove: true,
   loop: true,
